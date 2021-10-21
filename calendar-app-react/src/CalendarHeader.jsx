@@ -6,10 +6,10 @@ const CalendarHeader = ({ onNext, onBack, dateDisplay }) => {
       <div id="monthDisplay">{dateDisplay}</div>
       <div>
         <button onClick={onBack} id="backButton">
-          Back
+          Previous Month
         </button>
         <button onClick={onNext} id="nextButton">
-          Next
+          Next Month
         </button>
       </div>
     </div>
